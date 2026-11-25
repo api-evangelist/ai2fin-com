@@ -66,7 +66,7 @@
 
 Track and categorise transactions, find tax deductions and estimate what you owe with 2Fin. Intelligent money tools in every country. Start free today. 2Fin is a tax and money app for employees, sole traders and people who are both, available in every country — plus freelancers, students, property investors and small businesses.
 
-**Areas:** Finance · Tax · PersonalFinance · SaaS · EmployeeBenefits
+**Areas:** Finance · Tax · Personal Finance · Software-as-a-Service · Employee Benefits
 
 ## AI2Fin on APIs.io
 
@@ -96,22 +96,45 @@ Everything profiled for AI2Fin is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ai2fin-com-mcp.yml](https://apis.io/servers/ai2fin-com/ai2fin-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ai2Fin Com Agentic Access](https://apis.io/agentic-access/ai2fin-com/ai2fin-com-agentic-access/)
+- [AI2Fin Agentic Access](https://apis.io/agentic-access/ai2fin-com/ai2fin-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (23)
 
 The data models the API reads and writes.
 
+- [AnalyticsSummary](https://apis.io/schemas/ai2fin-com/ai2fin-com-analytics-summary/)
+- [AuthResponse](https://apis.io/schemas/ai2fin-com/ai2fin-com-auth-response/)
 - [BankTransaction](https://apis.io/schemas/ai2fin-com/ai2fin-com-bank-transaction/)
 - [BillPatternInput](https://apis.io/schemas/ai2fin-com/ai2fin-com-bill-pattern-input/)
+- [Category](https://apis.io/schemas/ai2fin-com/ai2fin-com-category/)
+- [CategoryInput](https://apis.io/schemas/ai2fin-com/ai2fin-com-category-input/)
 - [CategorySet](https://apis.io/schemas/ai2fin-com/ai2fin-com-category-set/)
+- [ChatConversation](https://apis.io/schemas/ai2fin-com/ai2fin-com-chat-conversation/)
+- [ChatFile](https://apis.io/schemas/ai2fin-com/ai2fin-com-chat-file/)
+- [ChatMessage](https://apis.io/schemas/ai2fin-com/ai2fin-com-chat-message/)
 - [CustomRuleInput](https://apis.io/schemas/ai2fin-com/ai2fin-com-custom-rule-input/)
+- [Expense](https://apis.io/schemas/ai2fin-com/ai2fin-com-expense/)
+- [Pagination](https://apis.io/schemas/ai2fin-com/ai2fin-com-pagination/)
+- [ReceiptAnalysis](https://apis.io/schemas/ai2fin-com/ai2fin-com-receipt-analysis/)
+- [ReceiptExtractedData](https://apis.io/schemas/ai2fin-com/ai2fin-com-receipt-extracted-data/)
+- [SubscriptionStatus](https://apis.io/schemas/ai2fin-com/ai2fin-com-subscription-status/)
+- [TaxCalculationResult](https://apis.io/schemas/ai2fin-com/ai2fin-com-tax-calculation-result/)
+- [TaxRate](https://apis.io/schemas/ai2fin-com/ai2fin-com-tax-rate/)
 - [TransactionCategory](https://apis.io/schemas/ai2fin-com/ai2fin-com-transaction-category/)
 - [TransactionFieldHistory](https://apis.io/schemas/ai2fin-com/ai2fin-com-transaction-field-history/)
+- [TripInput](https://apis.io/schemas/ai2fin-com/ai2fin-com-trip-input/)
+- [User](https://apis.io/schemas/ai2fin-com/ai2fin-com-user/)
+- [VehicleInput](https://apis.io/schemas/ai2fin-com/ai2fin-com-vehicle-input/)
 
 #### JSON-LD (1)
 
@@ -129,28 +152,28 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ai2Fin Com Authentication](https://apis.io/security/ai2fin-com/ai2fin-com-authentication/)
-- [Ai2Fin Com Domain Security](https://apis.io/security/ai2fin-com/ai2fin-com-domain-security/)
-- [Ai2Fin Com Trust Center](https://apis.io/security/ai2fin-com/ai2fin-com-trust-center/)
-- [Ai2Fin Com Vulnerability Disclosure](https://apis.io/security/ai2fin-com/ai2fin-com-vulnerability-disclosure/)
+- [AI2Fin Authentication](https://apis.io/security/ai2fin-com/ai2fin-com-authentication/)
+- [AI2Fin Domain Security](https://apis.io/security/ai2fin-com/ai2fin-com-domain-security/)
+- [AI2Fin Trust Center](https://apis.io/security/ai2fin-com/ai2fin-com-trust-center/)
+- [AI2Fin Vulnerability Disclosure](https://apis.io/security/ai2fin-com/ai2fin-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Ai2Fin Com Scopes](https://apis.io/scopes/ai2fin-com/ai2fin-com-scopes/)
+- [AI2Fin Scopes](https://apis.io/scopes/ai2fin-com/ai2fin-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Ai2Fin Com Plans Pricing](https://apis.io/plans/ai2fin-com/ai2fin-com-plans-pricing/)
+- [AI2Fin Plans Pricing](https://apis.io/plans/ai2fin-com/ai2fin-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Ai2Fin Com Rate Limits](https://apis.io/rate-limits/ai2fin-com/ai2fin-com-rate-limits/)
+- [AI2Fin Rate Limits](https://apis.io/rate-limits/ai2fin-com/ai2fin-com-rate-limits/)
 
 ## Where to find this API
 
@@ -171,23 +194,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 59.3** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 55.2** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.7 |
-| Contract quality | 57.7 |
-| Contract governance | 79.1 |
-| Operational transparency | 15.8 |
+| Discoverability | 83.3 |
+| Contract quality | 60.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 63.6 |
-| Access clarity | 47.4 |
+| Access clarity | 53.2 |
 
-**Agent readiness 59.7** — agent-ready (gated down from agent-native)
+**Agent readiness 55.8** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -198,7 +221,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -208,6 +231,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 45.1** — Horizontal (data, software, accessibility, platform)
 
